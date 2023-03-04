@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <form action='/predict' method="POST">
+            Cylinders: <input type='text' name='Cylinders'><br>
+            Displacement: <input type='text' name='Displacement'><br>
+            Horsepower: <input type='text' name='Horsepower'><br>
+            Weight: <input type='text' name='Weight'><br>
+            Acceleration: <input type='text' name='Acceleration'><br>
+            Model_Year: <input type='text' name='Model_Year'><br>
+            Origin: <input type='text' name='Origin'><br>
+            MPG_Value: {{result}} <br>
+            <input type='submit' value='Predict'>
+        </form>
+    </body>
+</html>
